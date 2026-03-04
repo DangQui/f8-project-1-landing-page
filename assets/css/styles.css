@@ -66,12 +66,13 @@ a {
 }
 
 .hero-wrap {
-    margin-top: -0.5px;
     position: relative;
-    height: calc(100vh - 90px);
-    background: #e6f0ff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 90px);
+    background: #e6f0ff;
+    margin-top: -0.5px;
 }
 
 .navbar {
@@ -110,10 +111,6 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
-}
-
-.hero {
-    margin-top: 130px;
 }
 
 .hero .info {
