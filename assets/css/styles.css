@@ -72,7 +72,7 @@ a {
     justify-content: center;
     height: calc(100vh - 90px);
     background: #e6f0ff;
-    margin-top: -0.5px;
+    margin-top: -1px;
 }
 
 .navbar {
