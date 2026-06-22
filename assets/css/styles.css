@@ -58,11 +58,11 @@ a {
 
 /* Header */
 .fixed-header {
-    /* position: sticky; */
+    position: sticky;
     top: -26px;
     background: #e6f0ff;
     padding-top: 26px;
-    z-index: 999;
+    z-index: 990;
 }
 
 .hero-wrap {
@@ -279,7 +279,7 @@ a {
 .featured {
     margin-top: 41px;
     background: #f5fafe;
-    padding: 110px 165px;
+    padding: 110px 0;
 }
 
 .featured .sub-title {
@@ -315,7 +315,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
